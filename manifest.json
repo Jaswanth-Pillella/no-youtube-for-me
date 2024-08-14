@@ -1,0 +1,38 @@
+{
+	"manifest_version": 3,
+	"name": "No YouTube for me",
+	"description": "Block YouTube on your browser",
+	"author": "Jashu",
+	"version": "1.0",
+	"permissions": [
+		"activeTab",
+		"storage",
+		"webRequest",
+		"declarativeNetRequest",
+		"tabs"
+	],
+	"declarative_net_request": {
+		"rule_resources": [{
+			"id": "ruleset",
+			"enabled": true,
+			"path": "rules.json"
+		}]
+    },
+	"icons": {
+		"128": "images/icon16.png"
+	},
+	"host_permissions": [
+		"https://*.youtube.com/*"
+	],
+	
+	"content_scripts": [
+		{
+			"js": [
+				"popup/popup.js"
+			],
+			"matches": [
+				"https://*.youtube.com/*"
+			]
+		}
+	]
+}

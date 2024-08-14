@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/popup/popup.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "https://*.youtube.com/*",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
+  
