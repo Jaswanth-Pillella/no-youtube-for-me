@@ -6,8 +6,14 @@ No Youtube for Me is a browser extension made using javascript. It blocks youtub
 
 This led to the creation of this extension, on the homepage of the extension there are two buttons namely Leetcode and My todo list, these buttons redirect to their websites accordingly. The technique I implemented for using youtube when we actually need it, is by creating a small toggle switch at the bottom of the homepage and whenever I on it we can see a new hidden button which is Piped. Piped is a privacy-friendly YouTube frontend alternative and we can use youtube from here. The next time you try to open youtube on your browser this button will be hidden.
 
-## How to run? 
+## Store Links
+[//]: # (Not tested for firefox.)
+
+- Microsoft Addons: [Link](https://microsoftedge.microsoft.com/addons/detail/no-youtube-for-me/hpobbhnibgndldhbmagkhalmfnbafmmf)
+- Chrome Webstore: coming soon.
+
+### How to run? (Browser Independent)
 
 Download the zip file from releases. Go to your browser's manage extensions page and enable developer mode. Now click on `Load Unpacked` and select your extracted folder. You can turn off the developer mode.
 
-### coming to webstore soon.
+
